@@ -108,9 +108,7 @@ class ChessGame:
         return piece_images
 
     def draw_board(self):
-        """Draw the chess board."""
-        # Draw background
-        self.screen.fill(BACKGROUND)
+        self.screen.fill(BACKGROUND) # Draw background
 
         # Draw board squares
         for rank in range(8):
