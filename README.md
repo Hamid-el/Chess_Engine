@@ -13,38 +13,6 @@ A complete chess application with a graphical user interface and AI opponent usi
 - Game state tracking (checkmate, stalemate, draws)
 - Move history and undo functionality
 
-## Project Structure
-
-```
-chess-engine/
-├── src/
-│   ├── core/           # Core chess logic
-│   │   ├── board.py
-│   │   ├── game.py
-│   │   └── move_generator.py
-│   ├── ai/             # AI implementation
-│   │   ├── engine.py
-│   │   ├── evaluation.py
-│   │   └── search.py
-│   └── gui/            # All GUI-related code
-│       ├── renderer.py
-│       ├── input_handler.py
-│       └── ui_components.py
-├── assets/             # Chess-specific assets
-│   ├── pieces/         # Chess piece images
-│   ├── boards/         # Board textures
-│   ├── sounds/         # Game sounds
-│   └── common/         # Non-GUI specific assets
-├── gui/                # GUI-specific assets
-│   └── assets/         
-│       ├── buttons/
-│       ├── backgrounds/
-│       └── icons/
-├── main.py             # Application entry point
-├── firstAI.py          # Original implementation (for reference)
-└── requirements.txt    # Project dependencies
-```
-
 ## Installation
 
 1. Clone the repository
@@ -94,5 +62,5 @@ MIT
 
 ## Acknowledgments
 
-- Original implementation (firstAI.py) by [Original Author]
-- Chess piece assets from [Asset Source]
+- Original inspiration by https://github.com/SebLague/Chess-Coding-Adventure
+- Chess piece assets from https://github.com/lichess-org/lila
