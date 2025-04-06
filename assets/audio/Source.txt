@@ -1,0 +1,2 @@
+Sound effects from https://github.com/lichess-org/lila
+https://github.com/lichess-org/lila/tree/master/public/sound/nes
