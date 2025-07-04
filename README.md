@@ -2,6 +2,8 @@
 
 A complete chess application with a graphical user interface and AI opponent using both traditional search techniques and neural network evaluation.
 
+Project Status: Functional Prototype
+
 ## Features
 
 - Complete chess rules implementation (legal moves, castling, en passant, etc.)
